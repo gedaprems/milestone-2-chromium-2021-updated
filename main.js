@@ -261,7 +261,7 @@ function updateAll() {
   updateMemoryUsage();
   updateStorage();
 
-  timeoutId = setTimeout(updateAll, 500);
+  timeoutId = setTimeout(updateAll, 30000);
 }
 
 chrome.runtime.onSuspend.addListener(function() {
