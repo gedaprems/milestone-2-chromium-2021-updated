@@ -16,7 +16,6 @@ function initLabels() {
   setLabel('cpu-arch', 'cpuArchLabel');
   setLabel('cpu-features', 'cpuFeaturesLabel');
   setLabel('cpu-usage', 'cpuUsageLabel');
-  setLabel('cpu-temperatures', 'cpuTemperaturesLabel');
 
   setLabel('internal-storage-units', 'internalStorageUnitsLabel');
   setLabel('external-storage-units', 'externalStorageUnitsLabel');
@@ -24,16 +23,10 @@ function initLabels() {
   setLabel('memory-capacity', 'memoryCapacityLabel');
   setLabel('memory-usage', 'memoryUsageLabel');
 
-  setLabel('internet-state', 'internetStateLabel');
-  setLabel('local-adapters', 'localAdaptersLabel');
-
   setLabel('battery-status', 'batteryStatusLabel');
   setLabel('battery-time', 'batteryTimeLabel');
   setLabel('battery-level', 'batteryLevelLabel');
-
-  setLabel('primary-display', 'primaryDisplayLabel');
-  setLabel('other-displays', 'otherDisplaysLabel');
-
+  
   setLabel('language', 'languageLabel');
   setLabel('accept-languages', 'acceptLanguagesLabel');
 
