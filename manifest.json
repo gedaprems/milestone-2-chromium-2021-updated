@@ -4,6 +4,7 @@
   "short_name": "SMC",
   "description": "This the second mile stone of chromium",
   "version": "1.0",
+  "version_name": "- Premsagar gedam",
   "default_locale": "en",
   "icons": {
     "16": "assets/icon_16.png",
