@@ -26,7 +26,7 @@ function initLabels() {
   setLabel('battery-status', 'batteryStatusLabel');
   setLabel('battery-time', 'batteryTimeLabel');
   setLabel('battery-level', 'batteryLevelLabel');
-  
+
   setLabel('language', 'languageLabel');
   setLabel('accept-languages', 'acceptLanguagesLabel');
 
@@ -261,7 +261,7 @@ function updateAll() {
   updateMemoryUsage();
   updateStorage();
 
-  timeoutId = setTimeout(updateAll, 500);
+  timeoutId = setTimeout(updateAll, 30000);
 }
 
 chrome.runtime.onSuspend.addListener(function() {
