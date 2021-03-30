@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
   src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url(assets/RobotoCondensed.woff) format('woff');
 }
 
