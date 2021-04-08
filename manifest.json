@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Second Milestone Chormium",
   "short_name": "SMC",
   "description": "This the second mile stone of chromium",
